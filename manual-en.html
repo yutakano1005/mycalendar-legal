@@ -91,7 +91,7 @@ ul.oslist li { margin:6px 0; }
 <img src="images/icon.jpg" alt="Calfect app icon">
 <h1>How to use Calfect</h1>
 <p class="sub">See your month and events at a glance, and add plans with one-tap stamps</p>
-<p class="date">User guide · Last updated: November 10, 2026 · <a href="manual.html" lang="ja" hreflang="ja">日本語</a></p>
+<p class="date">User guide · Last updated: November 15, 2026 · <a href="manual.html" lang="ja" hreflang="ja">日本語</a></p>
 </header>
 
 <div class="lead">
@@ -113,6 +113,8 @@ ul.oslist li { margin:6px 0; }
   <li><a href="#url" style="--c:var(--blue)"><span class="ico">🔗</span>Adding a calendar by URL</a></li>
   <li><a href="#backup" style="--c:var(--green)"><span class="ico">💾</span>Backup and restore</a></li>
   <li><a href="#plan" style="--c:var(--violet)"><span class="ico">👑</span>Free plan and Calfect Premium</a></li>
+  <li><a href="#widget" style="--c:var(--blue)"><span class="ico">📱</span>Widgets and the Lock Screen</a></li>
+  <li><a href="#tools" style="--c:var(--green)"><span class="ico">🧰</span>More handy features</a></li>
   <li><a href="#faq" style="--c:var(--pink)"><span class="ico">🆘</span>Troubleshooting</a></li>
   <li><a href="#contact" style="--c:var(--teal)"><span class="ico">💌</span>Feedback and contact</a></li>
 </ol>
@@ -156,6 +158,8 @@ ul.oslist li { margin:6px 0; }
   <li>Above the event list you'll see the selected day's date, holiday and weather (and rokuyo, if turned on). Each can be turned off in Settings.</li>
   <li>When today is shown, the list scrolls automatically so the most recently finished event is at the top (you can turn this off in Settings).</li>
   <li>On an iPad or tablet in landscape, the month view and the event list sit side by side.</li>
+  <li>Tap <b class="ui">📝 Add a note</b> at the bottom of the event list to write a note or diary entry for that day. To-dos with a due date and upcoming anniversaries also appear in that day's list (<a href="#tools">chapter 16</a>).</li>
+  <li>The window that opens when you tap the year and month at the top left also has <b class="ui">To-dos</b>, <b class="ui">Anniversaries</b>, <b class="ui">Stamp totals</b> and <b class="ui">Print / PDF</b> (<a href="#tools">chapter 16</a>).</li>
 </ul>
 
 <h3 id="search">Searching events</h3>
@@ -208,6 +212,13 @@ ul.oslist li { margin:6px 0; }
 </table>
 </div>
 <p>For important events, add two or more alerts (for example, the day before at 9:00 AM and on the day at 7:00 AM) so you don't miss them.</p>
+<h3 id="quick">Type it, or read it from a photo</h3>
+<ul>
+  <li><b>Type it</b>: In the <b class="ui">Type it (e.g. tomorrow 3pm dentist)</b> box on the add event screen, write the date, time and title in one line, and Calfect splits them into the right fields. You can also write things like "next Friday 7pm dinner" or "12/24 6-8pm party".</li>
+  <li><b>Read from a photo</b>: Tap <b class="ui">📷</b> at the right of the same box, then <b class="ui">Take photo</b> or <b class="ui">Choose photo</b> to read dated events from a photo of a school notice, a work schedule and so on. The events found are listed so you can pick the ones to add; tap <b class="ui">Edit</b> to fix a date or title first. Text is read on your device only, and the photo is never sent anywhere. This is a Calfect Premium feature.</li>
+  <li><b>Send from another app</b>: Select text or a photo in Notes, Messages and so on, tap <b class="ui">Share</b> and choose <b class="ui">Calfect</b> to turn it into events the same way (photos need Calfect Premium). If Calfect isn't in the list, add it from <b class="ui">More</b> on the share sheet.</li>
+</ul>
+<p class="note">Dates without a year are set to the nearest year. Always check what was read before saving.</p>
 <p class="note">Event colors are used only inside Calfect. Other calendar apps and other devices show the calendar's color. All occurrences of a repeating event share one color. The preset colors are free; choosing colors you created yourself is a Calfect Premium feature.</p>
 <p>If you'd rather not have the keyboard pop up when the screen opens (for example, to pick a template or stamp first), go to Settings →<b class="ui">Defaults for new events</b> and turn off <b class="ui">Start typing the title right away</b>.</p>
 <p class="note">Alerts arrive as notifications from your device's calendar. If you don't get them, check the following.<br><span class="os ios">iPhone</span>The Settings app → Apps → Calendar → Notifications is on.<br><span class="os and">Android</span>For events in Google or other online accounts, alerts come from the calendar app on your phone (Google Calendar, Samsung Calendar, etc.). Check that notifications are on in Settings → Apps → that calendar app. For events in calendars stored only on the device (such as a local account), alerts come from Calfect, which schedules the next 2 weeks of alerts each time you open it. Check Settings → Apps → Calfect → Notifications.</p>
@@ -282,20 +293,25 @@ ul.oslist li { margin:6px 0; }
 <div class="table-wrap">
 <table>
   <tr><th>Section</th><th>What's inside</th></tr>
-  <tr><td>Display</td><td>App icon (Calfect Premium), Appearance (light / dark), Week starts on, Time format (12-hour / 24-hour), Text contrast, text size (separately for month, day and week views), Day borders in month view, Events shown per day in month view, holidays (and the country to use), rokuyo, Dim finished events, Auto-scroll today's events, Shrink month view when scrolling, Month shown at launch, your guardian, weather (and its units)</td></tr>
+  <tr><td>Look &amp; feel</td><td>App icon (Calfect Premium), Appearance (light / dark), Text contrast, text size (separately for month, day and week views)</td></tr>
   <tr><td>Colors</td><td>Background, Calendar &amp; event panels, Accent (today, buttons), Sundays &amp; holidays, and Saturdays. You can also create your own colors (Calfect Premium). Light and dark modes are set separately.</td></tr>
+  <tr><td>Calendar view</td><td>Day borders in month view, Events shown per day in month view, Event color strength in month view, Dim finished events, Auto-scroll today's events, Shrink month view when scrolling, Month shown at launch, Show week numbers, Show moon phases, Show birthdays from contacts</td></tr>
+  <tr><td>Region &amp; units</td><td>Week starts on, Time format, temperature / wind speed / precipitation units, holidays (and the country and state to use), rokuyo</td></tr>
+  <tr><td>Weather</td><td>Show the weather forecast, weather icon size, wind strength, weather for your current location, Weather location (a region in Japan or a city outside Japan)</td></tr>
+  <tr><td>Notifications</td><td>Weather alerts for events, Show next event on the Lock Screen (both Calfect Premium; <a href="#widget">chapter 15</a> and <a href="#tools">chapter 16</a>)</td></tr>
+  <tr><td>Widgets</td><td>How to add widgets, Background photo (Calfect Premium; <a href="#widget">chapter 15</a>)</td></tr>
+  <tr><td>Guardian</td><td>Show your guardian (<a href="#growth">chapter 11</a>)</td></tr>
   <tr><td>Calendars</td><td>Show or hide each calendar and choose its color inside Calfect. You can also add a calendar by URL.</td></tr>
   <tr><td>Defaults for new events</td><td>Calendar, alerts (choose one or more), Start typing the title right away, Start as all-day, start time, duration, templates, and the order and visibility of fields on the add event screen</td></tr>
   <tr><td>Stamps</td><td>Show stamp names beside the emoji; reorder, remove and create stamps</td></tr>
-  <tr><td>Photos</td><td>Quality when adding photos</td></tr>
-  <tr><td>Map</td><td>The app opened by the Map button</td></tr>
-  <tr><td>Backup &amp; restore</td><td>Save and load your settings and photos</td></tr>
-  <tr><td>Other</td><td>Language (Match device / 日本語 / English), Calfect Premium, this user guide, Suggestion box, Tell a friend (send a short message about the app plus its store page by Messages, Mail and more; you can rewrite the message, and your version is kept for next time), Terms of Use, Privacy Policy, Licenses</td></tr>
+  <tr><td>Photos &amp; maps</td><td>Quality when adding photos; the app opened by the Map button</td></tr>
+  <tr><td>Backup &amp; restore</td><td>Save and load your settings, photos, to-dos, anniversaries and notes</td></tr>
+  <tr><td>Other</td><td>Lock the app (Face ID / fingerprint), Language (Match device / 日本語 / English), Calfect Premium, this user guide, Suggestion box, Tell a friend (send a short message about the app plus its store page by Messages, Mail and more; you can rewrite the message, and your version is kept for next time), Terms of Use, Privacy Policy, Licenses</td></tr>
 </table>
 </div>
 <h3 id="units">Units, time format and holidays</h3>
 <ul>
-  <li><b>Units</b>: Calfect picks units to match your region automatically. To change them, go to Settings →<b class="ui">Display</b>: <b class="ui">Time format</b> (Auto / 24-hour / 12-hour (AM/PM)), and, when weather is on, <b class="ui">Temperature unit</b> (°C / °F), <b class="ui">Wind speed unit</b> (m/s / km/h / mph) and <b class="ui">Precipitation unit</b> (mm / in).</li>
+  <li><b>Units</b>: Calfect picks units to match your region automatically. To change them, go to Settings →<b class="ui">Region &amp; units</b>: <b class="ui">Time format</b> (Auto / 24-hour / 12-hour (AM/PM)), <b class="ui">Temperature unit</b> (°C / °F), <b class="ui">Wind speed unit</b> (m/s / km/h / mph) and <b class="ui">Precipitation unit</b> (mm / in).</li>
   <li><b>Holidays</b>: With <b class="ui">Show holidays</b> on, choose a country under <b class="ui">Holidays for</b>: Auto (based on your region), Japan, United States of America, Canada, United Kingdom, Ireland, Australia, New Zealand or Singapore. For some countries you can also pick a state or region under <b class="ui">State / region holidays</b> to add holidays observed only there (the default is <b class="ui">Nationwide only</b>).</li>
   <li><span class="os jp">Japan only</span><b>Rokuyo</b>: <b class="ui">Show rokuyo</b> adds traditional Japanese lucky/unlucky days (Taian, Butsumetsu, etc.) to the top left of each date. It's on by default only in Japan or when the app is in Japanese.</li>
 </ul>
@@ -309,7 +325,7 @@ ul.oslist li { margin:6px 0; }
 <p class="note">Colors you set in "Calendars" apply only inside Calfect. The color of the calendar itself on your device doesn't change.</p>
 
 <h3 id="tone">Text contrast</h3>
-<p>In Settings →<b class="ui">Display</b>→<b class="ui">Text contrast</b>, choose <b class="ui">Soft</b>, <b class="ui">Standard</b>, <b class="ui">Strong</b> or <b class="ui">Strongest</b>. If text looks too faint, try Strong or Strongest. Dates and event titles get darker, along with small text such as times and descriptions. The setting is shared by light and dark modes.</p>
+<p>In Settings →<b class="ui">Look &amp; feel</b>→<b class="ui">Text contrast</b>, choose <b class="ui">Soft</b>, <b class="ui">Standard</b>, <b class="ui">Strong</b> or <b class="ui">Strongest</b>. If text looks too faint, try Strong or Strongest. Dates and event titles get darker, along with small text such as times and descriptions. The setting is shared by light and dark modes.</p>
 <p class="note">Choose the text colors for Sundays &amp; holidays and Saturdays in Settings →<b class="ui">Colors</b>.</p>
 
 <h3 id="mycolor">Reusing colors you created</h3>
@@ -320,16 +336,16 @@ ul.oslist li { margin:6px 0; }
 <section class="card" style="--c:var(--yellow)">
 <h2 id="weather"><span class="num">10</span><span class="ico">☀️</span>Weather</h2>
 <div class="shots"><figure style="--w:220px"><img src="images/en/weather.jpg" alt="The weather screen" loading="lazy"><figcaption>The weather screen</figcaption></figure><figure style="--w:220px"><img src="images/radar.jpg" alt="Rain radar (Japanese screen, Japan only)" loading="lazy"><figcaption>Rain radar (Japanese screen, Japan only)</figcaption></figure></div>
-<p>Weather is shown from the start (turn it off in Settings →<b class="ui">Display</b>→<b class="ui">Show weather</b>). Weather icons appear in the month view, and above the event list you'll see the weather, high / low temperatures, chance of rain and, on iPhone and iPad, precipitation amount.</p>
+<p>Weather is shown from the start (turn it off in Settings →<b class="ui">Weather</b>→<b class="ui">Show weather</b>). Weather icons appear in the month view, and above the event list you'll see the weather, high / low temperatures, chance of rain and, on iPhone and iPad, precipitation amount.</p>
 <ul>
   <li>Tap the weather above the event list to open the <b class="ui">Weather</b> screen: the high and low, chance of rain, wind, hourly forecasts and the coming days. Pick another day from the list at the bottom, or swipe left or right for the previous or next day. When you're looking at another day, tap <b class="ui">Today</b> next to the date to go back.</li>
   <li><b class="ui">Use your location for weather</b> shows the weather where you are. It's optional; you'll be asked for location access during the welcome guide. Your location is used only to choose the forecast area. Outside Japan, a point rounded to about 10 km (6 miles) is used to get the forecast, and your exact location is never stored or sent. When your location isn't available, the place chosen under <b class="ui">Weather location</b> is used.</li>
-  <li><b>Wind strength</b> is shown with curled wind lines in 5 levels: Calm (under 3 m/s, about 7 mph) has no mark; Light (3–6 m/s, about 7–13 mph) is 1 gray line; Breezy (6–10 m/s, about 13–22 mph) is 2 blue lines; Fairly strong (10–15 m/s, about 22–34 mph, hard to use an umbrella) is 3 orange lines; Strong (15 m/s or more, about 34 mph or more) is 4 red lines. In the month view it appears under the weather icon; on the Weather screen it appears with the day's strongest wind speed (in your wind unit). Turn off the month view marks in Settings →<b class="ui">Display</b>→<b class="ui">Show wind strength in month view</b>.</li>
+  <li><b>Wind strength</b> is shown with curled wind lines in 5 levels: Calm (under 3 m/s, about 7 mph) has no mark; Light (3–6 m/s, about 7–13 mph) is 1 gray line; Breezy (6–10 m/s, about 13–22 mph) is 2 blue lines; Fairly strong (10–15 m/s, about 22–34 mph, hard to use an umbrella) is 3 orange lines; Strong (15 m/s or more, about 34 mph or more) is 4 red lines. In the month view it appears under the weather icon; on the Weather screen it appears with the day's strongest wind speed (in your wind unit). Turn off the month view marks in Settings →<b class="ui">Weather</b>→<b class="ui">Show wind strength in month view</b>.</li>
   <li>You can choose the size of weather icons in the month view (<b class="ui">Weather icon size in month view</b>; the default is Large).</li>
 </ul>
 
 <h3 id="weather-abroad">Weather outside Japan</h3>
-<p>Choose where the weather is for in Settings →<b class="ui">Display</b>→<b class="ui">Weather location</b>: either turn on <b class="ui">Use your location for weather</b>, or choose <b class="ui">Search a city</b>, type a city name (e.g. London, Sydney) and tap <b class="ui">Search</b>, then pick the right city from the results.</p>
+<p>Choose where the weather is for in Settings →<b class="ui">Weather</b>→<b class="ui">Weather location</b>: either turn on <b class="ui">Use your location for weather</b>, or choose <b class="ui">Search a city</b>, type a city name (e.g. London, Sydney) and tap <b class="ui">Search</b>, then pick the right city from the results.</p>
 <ul class="oslist">
   <li><span class="os ios">iPhone</span>Forecasts come from Apple Weather (WeatherKit): about 10 days ahead, with hourly forecasts, chance of rain and precipitation amounts.</li>
   <li><span class="os and">Android</span>Forecasts come from MET Norway (the Norwegian Meteorological Institute): about 9 days ahead, hourly for the first 2 days. Chance of rain isn't available from this source, so no percentage is shown.</li>
@@ -383,7 +399,7 @@ ul.oslist li { margin:6px 0; }
   <li><b>The Summoning</b>: When you have all Four Gods, combine their powers to summon Koryu, the Yellow Dragon who guards the center. Start from <b class="ui">The Summoning</b> on the guardian screen, or from Koryu's spot in the Book.</li>
   <li><b>Guardian shown next to the month</b>: Instead of the guardian you're raising, you can show any full guardian next to the month. Long-press it in the Book, or tap it and choose <b class="ui">Show next to the month</b>. It gets a <b class="ui">HOME</b> tag.</li>
   <li><b>Movement</b>: Each guardian moves in its own way. Tap it on the guardian screen to see a different move for each form; full guardians have special moves and effects. Guardians don't move when Reduce Motion (Android: Remove animations) is on.</li>
-  <li>Guardians and bonds are saved with your settings and included in backups. They can't be exchanged for money or transferred. Turn off Settings →<b class="ui">Display</b>→<b class="ui">Show your guardian</b> to hide your guardian; no bonds are added while it's off (your progress is kept).</li>
+  <li>Guardians and bonds are saved with your settings and included in backups. They can't be exchanged for money or transferred. Turn off Settings →<b class="ui">Guardian</b>→<b class="ui">Show your guardian</b> to hide your guardian; no bonds are added while it's off (your progress is kept).</li>
 </ul>
 
 </section>
@@ -444,7 +460,7 @@ ul.oslist li { margin:6px 0; }
 <div class="table-wrap">
 <table>
   <tr><th>Feature</th><th>Free</th><th>Premium</th></tr>
-  <tr><td>Day, week, month and year views; adding and editing events; multiple alerts; weather; color changes; per-event colors (preset colors); copying one event at a time; press and hold to move or copy; sharing; adding calendars by URL; reordering and hiding fields on the add event screen; backup</td><td>○</td><td>○</td></tr>
+  <tr><td>Day, week, month and year views; adding and editing events; multiple alerts; weather; color changes; per-event colors (preset colors); copying one event at a time; press and hold to move or copy; sharing; adding calendars by URL; reordering and hiding fields on the add event screen; backup; typing events and adding them from the share sheet; to-dos; daily notes; week numbers, moon phases and contact birthdays; app lock; the app icon menu; Siri (iPhone)</td><td>○</td><td>○</td></tr>
   <tr><td>Ads</td><td>Shown</td><td>None</td></tr>
   <tr><td>Event search</td><td>1 year back to 1 year ahead</td><td>20 years back to 5 years ahead</td></tr>
   <tr><td>Templates</td><td>Up to 3</td><td>Unlimited</td></tr>
@@ -453,6 +469,13 @@ ul.oslist li { margin:6px 0; }
   <tr><td>Create your own colors</td><td>– (all preset colors are free)</td><td>○</td></tr>
   <tr><td>Copy to multiple days</td><td>–</td><td>○</td></tr>
   <tr><td>App icon</td><td>–</td><td>○</td></tr>
+  <tr><td>Home screen widgets</td><td>Small (Today) only</td><td>All sizes, photo background, Lock Screen (iPhone)</td></tr>
+  <tr><td>Next event on the Lock Screen (iPhone)</td><td>–</td><td>○</td></tr>
+  <tr><td>Weather alerts for events (rain, wind)</td><td>–</td><td>○</td></tr>
+  <tr><td>Stamp totals</td><td>This month's counts</td><td>All months, hours, amounts</td></tr>
+  <tr><td>Anniversary countdowns</td><td>Up to 3</td><td>Unlimited</td></tr>
+  <tr><td>Read events from a photo</td><td>–</td><td>○</td></tr>
+  <tr><td>Print calendar / PDF</td><td>–</td><td>○</td></tr>
   <tr><td>Guardian bonds</td><td>1/day</td><td>1.5/day</td></tr>
 </table>
 </div>
@@ -488,15 +511,61 @@ ul.oslist li { margin:6px 0; }
   <li>Choosing colors you created (they show with 🔒 in Settings and the event color list)</li>
   <li>Adding events with stamps you created (those stamps show a lock)</li>
   <li>Using your 4th template and beyond (the first 3 in the list can be used; change the order in Settings)</li>
-  <li>Adding more than the free limits (templates, photos, stamps, colors), Copy to multiple days, and the wider search range</li>
+  <li>Adding more than the free limits (templates, photos, stamps, colors, anniversaries), Copy to multiple days, and the wider search range</li>
+  <li>Medium, large and other widgets, the photo background, the next event on the Lock Screen, weather alerts, stamp totals beyond this month's counts, reading events from a photo, and print / PDF (anniversaries, to-dos and notes you already have stay usable)</li>
 </ul>
 
 <h3>New phone or reinstalling</h3>
 <p>Tap <b class="ui">Restore purchase</b> on the purchase screen to get your subscription back. Lifetime purchases are restored the same way.</p>
 
 </section>
+<section class="card" style="--c:var(--blue)">
+<h2 id="widget"><span class="num">15</span><span class="ico">📱</span>Widgets and the Lock Screen</h2>
+<h3>Home screen widgets</h3>
+<p>Show today's date, weather and events on your Home Screen.</p>
+<ul class="oslist">
+  <li><span class="os ios">iPhone</span>Touch and hold an empty spot on the Home Screen →<b class="ui">Edit</b>→<b class="ui">Add Widget</b>→<b class="ui">Calfect</b>. Choose <b>small</b> (today's date, weather and next event), <b>medium</b> (today's events) or <b>large</b> (the month with stamps, plus today's events). You can also add one to the Lock Screen (touch and hold the Lock Screen →<b class="ui">Customize</b>→<b class="ui">Lock Screen</b>→ the widget area).</li>
+  <li><span class="os and">Android</span>Touch and hold an empty spot on the Home Screen →<b class="ui">Widgets</b>→<b class="ui">Calfect</b>. There are three: <b>Today</b> (small), <b>Events</b> and <b>Month</b>.</li>
+</ul>
+<p>The small (Today) widget is free. The other sizes and the Lock Screen widgets are Calfect Premium features.</p>
+<p><b>Background photo</b>: In Settings →<b class="ui">Widgets</b>→<b class="ui">Choose a photo</b>, use any photo as the widget background (Calfect Premium). Events and weather are shown in white on top of the photo, so choose <b class="ui">Darker (easier to read)</b> if the text is hard to read. The center of the photo is cropped to a square.</p>
+<p class="note">Widgets update when you open the app and from time to time in the background. If a change doesn't show right away, open Calfect once.</p>
+<h3>Next event on the Lock Screen (iPhone)</h3>
+<p>With Settings →<b class="ui">Notifications</b>→<b class="ui">Show next event on the Lock Screen</b> on, your next event and the time until it starts appear on the Lock Screen and in the Dynamic Island from 90 minutes before the event until it ends (Calfect Premium; on by default). It appears when you open the app.</p>
+</section>
+<section class="card" style="--c:var(--green)">
+<h2 id="tools"><span class="num">16</span><span class="ico">🧰</span>More handy features</h2>
+<h3>App icon menu and Siri</h3>
+<p>Touch and hold the Calfect icon on your Home Screen for quick access to <b class="ui">Add event</b>, <b class="ui">Go to today</b> and <b class="ui">Search events</b>.</p>
+<p><span class="os ios">iPhone</span>You can also ask Siri: "Add an event in Calfect", "Show today in Calfect" or "Search Calfect". Calfect's actions also appear in the Shortcuts app.</p>
+<h3>To-dos</h3>
+<p>Tap <b class="ui">To-dos</b> in the year and month window to keep a to-do list. Check items off when they're done. With <b class="ui">📅 Add due date</b>, a to-do also appears at the top of that day's event list (unfinished to-dos past their due date show up in today's list). Clear finished items with <b class="ui">Delete all done</b>.</p>
+<h3>Anniversary countdowns</h3>
+<p>Tap <b class="ui">Anniversaries</b> in the year and month window to add birthdays, wedding anniversaries and so on, and Calfect counts the days left. You can also choose <b class="ui">Repeat every year</b> and <b class="ui">Show the year count</b> (for a birthday, the age). Anniversaries within 30 days also appear in today's event list. The free plan includes up to 3; with Calfect Premium you can add as many as you like.</p>
+<h3>Daily notes</h3>
+<p>Tap <b class="ui">📝 Add a note</b> at the bottom of the event list to write a note or diary entry for that day. Notes are saved on this device only and are not written to your calendars.</p>
+<h3>Stamp totals</h3>
+<p>Tap <b class="ui">Stamp totals</b> in the year and month window to count how many times each stamp was used in a month (events whose title starts with a stamp's emoji are counted; all-day events spanning several days count the days within that month). This month's counts are free. Other months, total hours for timed events and amount estimates are available with Calfect Premium.</p>
+<p><b>Amount estimates</b>: Turn on <b class="ui">Show amount estimates</b> and enter an amount <b class="ui">Per event</b> or <b class="ui">Hourly</b> for each stamp to see an estimated monthly total (handy for part-time pay or lesson fees).</p>
+<h3>Print / PDF</h3>
+<p>Tap <b class="ui">Print / PDF</b> in the year and month window to print the month you're viewing, with events, holidays and stamps, or save or send it as a PDF (Calfect Premium).</p>
+<h3>Weather alerts for events</h3>
+<p>Turn on Settings →<b class="ui">Notifications</b>→<b class="ui">Weather alerts for events</b> to get an alert when rain (for example, a 50% or higher chance) or strong wind is forecast during a timed event (Calfect Premium). Choose <b class="ui">Evening before</b>, <b class="ui">Morning of</b> or <b class="ui">Both</b>, and set the time for each. The forecast is refreshed when you open the app and from time to time in the background. Weather must be turned on.</p>
+<h3>Snoozing alerts</h3>
+<p>For alerts sent by Calfect (weather alerts for events, and on Android, alerts for events in on-device calendars), touch and hold (or pull down) the notification and choose <b class="ui">In 10 min</b> or <b class="ui">In 1 hour</b> to be reminded again.</p>
+<h3>Week numbers, moon phases and birthdays from contacts</h3>
+<p>Turn these on in Settings →<b class="ui">Calendar view</b>:</p>
+<ul>
+  <li><b class="ui">Show week numbers</b>: Shows the week of the year (ISO week number) in small type at the left of each week in the month view.</li>
+  <li><b class="ui">Show moon phases</b>: Shows 🌑 new moon and 🌕 full moon in the month view, and the moon's age in the day heading.</li>
+  <li><b class="ui">Show birthdays from contacts</b>: Shows birthdays saved in your contacts as "🎂 Name". You'll be asked for access to your contacts the first time. Contacts are read on your device only and never sent anywhere. If you already show the iPhone Calendar's "Birthdays" calendar, Calfect uses that instead so birthdays don't appear twice.</li>
+</ul>
+<h3>Lock the app</h3>
+<p>Turn on Settings →<b class="ui">Other</b>→<b class="ui">Lock the app (Face ID / fingerprint)</b> to require Face ID, a fingerprint or similar when you open the app and after you've been in another app for more than a minute. Your device passcode also unlocks it. If you remove the device passcode, the lock is turned off automatically.</p>
+<p class="note">To-dos, anniversaries and daily notes are saved on this device only, and are included in backups (<a href="#backup">chapter 13</a>).</p>
+</section>
 <section class="card" style="--c:var(--pink)">
-<h2 id="faq"><span class="num">15</span><span class="ico">🆘</span>Troubleshooting</h2>
+<h2 id="faq"><span class="num">17</span><span class="ico">🆘</span>Troubleshooting</h2>
 <h3>My events don't show up</h3>
 <ul>
   <li>Check that Calfect has access to your calendars.<br><span class="os ios">iPhone</span>The Settings app → Apps → Calfect → Calendars is set to <b class="ui">Full Access</b><br><span class="os and">Android</span>Device Settings → Apps → Calfect → Permissions → Calendar is allowed</li>
@@ -516,7 +585,7 @@ ul.oslist li { margin:6px 0; }
   <li><span class="os and">Android</span>Alerts for events in Google and other accounts come from your phone's calendar app (Google Calendar, Samsung Calendar, etc.). Check that its notifications are on and that settings such as Do Not Disturb or Bedtime mode aren't hiding them. Alerts for calendars stored only on the device (such as a local account) come from Calfect, so check that Calfect's notifications are on. Alerts more than 2 weeks ahead are scheduled when you open Calfect.</li>
 </ul>
 <h3>I want bigger or smaller text</h3>
-<p>Text in the month, week and year views doesn't follow your device's text size setting (so it still fits in the cells). Set the text size for the month, day and week views separately in Settings →<b class="ui">Display</b>.</p>
+<p>Text in the month, week and year views doesn't follow your device's text size setting (so it still fits in the cells). Set the text size for the month, day and week views separately in Settings →<b class="ui">Look &amp; feel</b>.</p>
 <h3>Weather isn't showing</h3>
 <p>Check that you're online. Forecasts cover from today to about a week ahead (up to about 10 days outside Japan). Outside Japan, also check that a city is chosen under <b class="ui">Weather location</b>, or that location access is allowed.</p>
 <h3>I bought Premium but still see ads / can't use features</h3>
@@ -524,7 +593,7 @@ ul.oslist li { margin:6px 0; }
 
 </section>
 <section class="card" style="--c:var(--teal)">
-<h2 id="contact"><span class="num">16</span><span class="ico">💌</span>Feedback and contact</h2>
+<h2 id="contact"><span class="num">18</span><span class="ico">💌</span>Feedback and contact</h2>
 <p>To send a suggestion or report a bug, go to Settings →<b class="ui">Other</b>→<b class="ui">Suggestion box</b>, write your message and tap <b class="ui">Send</b>. Please don't include personal information such as your name or contact details. We read every message to improve the app, but as a rule we don't reply. Thank you for understanding.</p>
 <p>Operator: YUTAKANO<br>Email: yutakanoca@gmail.com</p>
 </section>
